@@ -75,7 +75,7 @@ URLS = {
     USERS_FOR_SERVER: "rest/extender/1.0/user/getUsersWithConfluenceAccess?showExtendedDetails=true&startAt={start}&maxResults={limit}",
     LABEL: "rest/api/content/{id}/label",
 }
-PING_URL = "rest/api/spaces?limit=1"
+PING_URL = "rest/api/space?limit=1"
 MAX_CONCURRENT_DOWNLOADS = 50  # Max concurrent download supported by confluence
 MAX_CONCURRENCY = 50
 QUEUE_SIZE = 1024
